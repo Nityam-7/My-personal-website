@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oswald&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Oswald&display=swap');
+
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar {
+    background-color: grey;
+    width: 280px;
+    font-family: "Fira Sans", sans-serif;
+    height: 100vh;
+    text-transform: uppercase lowercase;
+  }
+  .sidebar nav {
+    padding: 50px;
+  }
+  .sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+  }
+  .sidebar nav li a{
+      text-decoration: none;
+      color: black;
+  }
+  .main {
+    /*background-color: yellow;*/
+    background: whitesmoke;
+    width: 90vw;
+  }
+  
+  .container {
+    display: flex;
+  }
+body{
+    background: whitesmoke;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin: 5px;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color:black;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+    
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3a cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.html{
+    width: 80%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.javascript{
+    width: 60%;
+    animation: javascript 3s;
+}
+.C{
+    width: 85%;
+    animation: C 3s;
+}
+.sql{
+    width: 40%;
+    animation: sql 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes C{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+.Communication{
+    width: 80%;
+    animation: Communication 3s;
+}
+.Team-work{
+    width: 95%;
+    animation: Team-work 3s;
+}
+.Project-Management{
+    width: 85%;
+    animation: Project-Management 3s;
+}
+.Problem-Solving{
+    width: 80%;
+    animation: Problem-Solving 3s;
+}
+.Leader-ship-skills{
+    width: 70%;
+    animation: Leader-ship-skills 3s;
+}
+@keyframes Communication{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes Team-work{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes Project-Management{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes Problem-Solving{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes Leader-ship-skills{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.devPic img{
+
+    height: 38vh;
+}
+
+
